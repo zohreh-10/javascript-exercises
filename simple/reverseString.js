@@ -12,4 +12,12 @@
 
 // Write your solution here
 
+function reverseString(string) {
+  return string.split("").reverse().join("");
+}
+
+console.log(reverseString("Hello"));
+console.log(reverseString("World"));
+
+
 module.exports = reverseString;
